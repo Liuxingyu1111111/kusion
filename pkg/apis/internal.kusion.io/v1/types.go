@@ -217,8 +217,8 @@ type Job struct {
 type Type string
 
 const (
-	TypeJob     = "kam.v1.workload.Job"
-	TypeService = "kam.v1.workload.Service"
+	TypeService = "service.v1.Service"
+	TypeJob     = "job.v1.Job"
 )
 
 type Header struct {
